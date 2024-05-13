@@ -364,7 +364,7 @@ input[type="checkbox"] + label::before {
   border: 1px solid #999;
 }
 input[type="checkbox"]:checked + label::before {
-  background: url(./assets/check.svg) no-repeat 50% 50% / 100%;
+  background: url(./assets/images/check.svg) no-repeat 50% 50% / 100%;
 }
 
 /* radio 공통 */
@@ -387,7 +387,7 @@ input[type="radio"] + label::before {
   border: 1px solid #999;
 }
 input[type="radio"]:checked + label::before {
-  background: url(../images/common/circle.svg) no-repeat 50% 50% / 12px;
+  background: url(./assets/images/circle.svg) no-repeat 50% 50% / 12px;
 }
 
 /* select 공통 */
@@ -541,7 +541,7 @@ textarea {
   content: '';
   width:17px;
   height: 17px;
-  background: url(../images/icon_plus.svg) no-repeat left top / 100%;
+  background: url(./assets/images/icon_plus.svg) no-repeat left top / 100%;
   margin-left:10px;
 } */
 
@@ -557,7 +557,7 @@ textarea {
   content: "";
   width: 20px;
   height: 10px;
-  background: url(../images/arrow_more.svg) no-repeat left top / 100%;
+  background: url(./assets/images/arrow_more.svg) no-repeat left top / 100%;
   margin-left: 20px;
 }
 
@@ -578,7 +578,7 @@ textarea {
   content: "";
   width: 18px;
   height: 15px;
-  background: url(../images/icon_list.svg) no-repeat left top / 100%;
+  background: url(./assets/images/icon_list.svg) no-repeat left top / 100%;
 }
 
 /* 라벨 버튼 */
@@ -597,13 +597,13 @@ textarea {
   height: 24px;
 }
 .delete_label_btn::before {
-  background: url(../images/common/delete.svg) no-repeat 0 0 / 100%;
+  background: url(./assets/images/delete.svg) no-repeat 0 0 / 100%;
 }
 .send_label_btn {
   flex-direction: row-reverse;
 }
 .send_label_btn::before {
-  background: url(../images/common/send.svg) no-repeat 0 0 / 100%;
+  background: url(./assets/images/send.svg) no-repeat 0 0 / 100%;
 }
 
 /* 아이콘 버튼 */
@@ -623,10 +623,10 @@ textarea {
   height: 24px;
 }
 .delete_icon_btn:before {
-  background: url(../images/common/delete.svg) no-repeat 50% 50% / 100%;
+  background: url(./assets/images/delete.svg) no-repeat 50% 50% / 100%;
 }
 .send_icon_btn:before {
-  background: url(../images/common/send.svg) no-repeat 50% 50% / 100%;
+  background: url(./assets/images/send.svg) no-repeat 50% 50% / 100%;
 }
 
 /* 다운로드 버튼 */
@@ -648,7 +648,7 @@ textarea {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(../images/common/sprite_pc_new.png) no-repeat;
+  background: url(./assets/images/sprite_pc_new.png) no-repeat;
   vertical-align: middle;
 }
 .pdf_file_icon {
@@ -673,7 +673,7 @@ textarea {
 /* 플랫폼 아이콘 */
 [class*="device_icon"] {
   display: inline-block;
-  background: url(../images/common/set_os.svg) no-repeat;
+  background: url(./assets/images/set_os.svg) no-repeat;
   vertical-align: middle;
 }
 .pc_device_icon {
@@ -704,7 +704,7 @@ textarea {
 /* 커뮤니티 아이콘 */
 [class*="sns_icon"] {
   display: inline-block;
-  background: url(../images/common/set_community.svg) no-repeat;
+  background: url(./assets/images/set_community.svg) no-repeat;
   vertical-align: middle;
 }
 [class*="sns_icon"]:hover {
@@ -757,7 +757,7 @@ caption.nohead {
   width: 60px;
   height: 48px;
   border: none;
-  background: #fff url(../images/icon_search.svg) no-repeat 50% 50%;
+  background: #fff url(./assets/images/icon_search.svg) no-repeat 50% 50%;
 }
 
 /* board_list(게시물리스트), board_view(게시물보기), board_write(게시물쓰기), board_modify(게시물수정) */
@@ -829,19 +829,19 @@ caption.nohead {
   align-items: center;
 }
 .board_pagination .first {
-  background: url(../images/common/page_two.svg) no-repeat 50% 50%;
+  background: url(./assets/images/page_two.svg) no-repeat 50% 50%;
 }
 .board_pagination .prev {
   margin-right: 20px;
-  background: url(../images/common/page_one.svg) no-repeat 50% 50%;
+  background: url(./assets/images/page_one.svg) no-repeat 50% 50%;
 }
 .board_pagination .next {
   margin-left: 20px;
-  background: url(../images/common/page_one.svg) no-repeat 50% 50%;
+  background: url(./assets/images/page_one.svg) no-repeat 50% 50%;
   transform: rotate(180deg);
 }
 .board_pagination .last {
-  background: url(../images/common/page_two.svg) no-repeat 50% 50%;
+  background: url(./assets/images/page_two.svg) no-repeat 50% 50%;
   transform: rotate(180deg);
 }
 .board_pagination .num {

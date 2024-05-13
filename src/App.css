@@ -1,0 +1,21 @@
+.accodion {
+  padding: 30px;
+}
+.accodion h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.accodion .panel {
+  padding: 20px;
+  border: 3px solid #333;
+  border-top: none;
+}
+.accodion .pane:nth-of-type(1) .accodion .panel h3 {
+  font-size: 30px;
+}
+
+.tabmenu {
+  display: flex;
+  gap: 20px;
+}
